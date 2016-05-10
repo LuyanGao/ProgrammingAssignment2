@@ -1,7 +1,5 @@
 ##  Caching the Inverse of a Matrix
 
-## Write a short comment describing this function
-
 makeCacheMatrix <- function(x = matrix()) {
   n <- NULL
   set <- function(y) {
@@ -16,7 +14,6 @@ makeCacheMatrix <- function(x = matrix()) {
        setinv = setinv,
        getinv = getinv)
 }
-
 
 ## The function below computes the inverse of the Matrix created by makeCacheMatrix. 
 ## If the inverse has already been calculated, then it gets the inverse from the cache and skips the computation.
